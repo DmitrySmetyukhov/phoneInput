@@ -12,4 +12,10 @@
        (intlTelInputObject)="telInputObject($event)"
        (countryChange)="onCountryChange($event)"
        #tar
+       [textMask]="{mask: mask, guide: true}"
+       [(ngModel)]="phone"
+       (input)="change(phone)"
+
 />
+
+

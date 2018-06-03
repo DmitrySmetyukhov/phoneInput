@@ -4,8 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-// import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-// import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+import { TextMaskModule } from 'angular2-text-mask';
 
 
 @NgModule({
@@ -15,7 +14,8 @@ import { BrowserModule } from '@angular/platform-browser';
   imports: [
     BrowserModule,
     FormsModule,
-    Ng2TelInputModule
+    Ng2TelInputModule,
+    TextMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]

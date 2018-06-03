@@ -40,6 +40,7 @@
     "@progress/kendo-theme-bootstrap": "2.11.5",
     "@progress/kendo-theme-default": "2.47.7",
     "angular-archwizard": "^3.0.0",
+    "angular2-text-mask": "^9.0.0",
     "animate.css": "3.6.1",
     "awesome-bootstrap-checkbox": "1.0.1",
     "bootstrap": "4.0.0-beta.3",
